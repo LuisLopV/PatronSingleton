@@ -12,7 +12,7 @@ public class Constante {
     public static Constante getInstance(){
         if(instancia==null){
             instancia=new Constante();
-            System.out.println("Instancia Creada por Primara");
+            System.out.println("Instancia Creada por Primara vez");
         }
         return instancia;
     }
